@@ -1,27 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap');
-
-body {
-    padding-left: 5%;
-    padding-right: 5%; 
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+nav{
+    display: inline;
+}
+.link {
+    display: inline-block;
+    width: 1200px;
+    height: 50px;
+    text-align: end;
+    font-size: large;
+    word-break: break-word;
+    word-spacing: 15px;
+}
+h2 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-style: italic;
+    color: darkblue;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
 }
 
-
-nav {
-display: inline;
+.about {
+    display: inline-block;
+}
+.about > img {
+    display: inline-block;
+}
+.about > p{
+    display: inline-block;
+    text-align: center;
+    width: 900px;
+    float: right;
+height: 250px;
+text-align: center;
+align-content: center;
+padding-top: 150px;
+font-size: xx-large;
+font-style: oblique;
+font-family: unset;
+color: blueviolet;
+margin-top: 0px;
+margin-bottom: 10px;
+padding-top: 10px;
+}
+main {
+    margin-left: 200px;
+    margin-right: 75px;
 }
 
-.menu {
-    float: inline-end;
+#contact {
+    display: inline-block
 }
 
-h1 {
-    display: inline
-
+footer {
+    margin-left: 70px;
+    padding-left: 900px;
 }
 
-.tittle {
-    color: darkgreen;
-    border: 2px;
-    text-decoration: underline;
+h3 {
+    color: brown;
+    font-weight: 300px;
+    text-decoration:underline;
 }
